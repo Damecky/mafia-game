@@ -3,3 +3,4 @@ export * from "./phases";
 export * from "./cards";
 export * from "./card-types";
 export * from "./card-definitions";
+export * from "./events";
