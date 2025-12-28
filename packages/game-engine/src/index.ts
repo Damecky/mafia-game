@@ -8,3 +8,4 @@ export * from "./analysis";
 export * from "./analysis-messages";
 export * from "./night-vote";
 export * from "./day-vote";
+export * from "./game-over";
