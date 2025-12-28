@@ -39,4 +39,7 @@ export interface GameState {
   };
   /** głosy nocne (wszyscy głosują, ale liczy się mafia) */
   nightVotes?: Record<string, string>;
+  /** głosy dzienne miasta */
+  dayVotes?: Record<string, string>;
+
 
