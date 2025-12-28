@@ -27,3 +27,8 @@ export interface GameState {
   /** czy raport został zakłócony */
   reportDisrupted: boolean;
 }
+  /** głosy w aktualnym głosowaniu: voterId -> targetId */
+  votes?: Record<string, string>;
+
+  /** gracz z największą liczbą głosów w INIT_VOTE */
+  topVotedPlayerId?: string;
