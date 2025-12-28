@@ -1,0 +1,6 @@
+{
+  "name": "@mafia/game-engine",
+  "private": true,
+  "type": "module",
+  "main": "src/index.ts"
+}
