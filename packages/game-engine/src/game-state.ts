@@ -37,4 +37,6 @@ export interface GameState {
     targetPlayerId: string;
     receiverPlayerId: string;
   };
+  /** głosy nocne (wszyscy głosują, ale liczy się mafia) */
+  nightVotes?: Record<string, string>;
 

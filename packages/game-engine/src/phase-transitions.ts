@@ -11,3 +11,10 @@ export function goToInitVote(state: GameState): GameState {
     phase: Phase.INIT_VOTE
   };
 }
+export function goToNight(state: GameState): GameState {
+  return {
+    ...state,
+    phase: Phase.NIGHT,
+    nightVotes: {}
+  };
+}
