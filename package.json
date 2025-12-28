@@ -1,0 +1,13 @@
+{
+  "name": "mafia-game",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "echo \"root dev\"",
+    "build": "echo \"root build\""
+  }
+}
