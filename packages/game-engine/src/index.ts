@@ -1,1 +1,1 @@
-// game engine entry point
+export * from "./game-state";
