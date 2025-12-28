@@ -1,0 +1,6 @@
+{
+  "name": "@mafia/shared",
+  "private": true,
+  "type": "module",
+  "main": "src/index.ts"
+}
