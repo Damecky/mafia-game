@@ -4,3 +4,4 @@ export * from "./role-assignment";
 export * from "./game-start";
 export * from "./phase-transitions";
 export * from "./init-vote";
+export * from "./analysis";

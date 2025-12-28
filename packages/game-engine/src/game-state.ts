@@ -32,3 +32,9 @@ export interface GameState {
 
   /** gracz z największą liczbą głosów w INIT_VOTE */
   topVotedPlayerId?: string;
+  /** systemowa analiza po rundzie 0 */
+  pendingAnalysis?: {
+    targetPlayerId: string;
+    receiverPlayerId: string;
+  };
+
